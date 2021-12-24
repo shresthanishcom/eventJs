@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.photos {
+  width: 100%;
+  height: fit-content;
+  border: 2px solid black;
+  display: grid;
+  justify-content: center;
+}
+
+.photo {
+  margin-bottom: 20px;
+  border: 2px solid purple;
+  width: 70vw;
+  height: 100%;
+}
+
+.photo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
